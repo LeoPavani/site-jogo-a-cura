@@ -1,3 +1,7 @@
+* {
+  font-family: "Montserrat";
+}
+
 .logo{
     width: 15rem;
 }
@@ -16,46 +20,60 @@
 
 .card-largura{
     max-width: 18rem;
-  }
+}
   
-  .imagem-carrossel1{
-    object-fit: cover;
-    object-position: 0 50%;
-    height: 500px;
+.imagem-carrossel1{
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 500px;
 }
 
 .imagem-carrossel2{
-    object-fit: cover;
-    object-position: 0 50%;
-    height: 500px;
-  }
-  
-  .fonte-titulo{
-    font-family: 'Pacifico', cursive;
-  }
-  
-  .cor-especial{
-    color: darkred!important;
-  }
-  
-  .cor-subtitulo{
-    color: gray;
-  }
-  
-  .botao-cor-especial{
-    background-color: darkred;
-    color: white;
-  }
-  
-  .borda-cor-especial{
-    border-color: darkred;
-  }
-  
-  .card-posicao-imagem{
-    object-fit: cover;
-    height: 200px;
-  }
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 500px;
+}
 
-footer .footer a{
-    padding: 1rem 2rem;
+.fonte-titulo{
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+}
+
+.cor-especial{
+  color: rgb(8, 20, 8)!important;
+}
+
+.cor-subtitulo{
+  color: gray;
+}
+  
+.botao-cor-especial{
+  background-color: rgb(8, 20, 8);
+  color: white;
+}
+  
+.borda-cor-especial{
+  border-color: rgb(8, 20, 8);
+}
+  
+.card-posicao-imagem{
+  object-fit: cover;
+  height: 200px;
+}
+
+.texto-sobre{
+  font-size: 1.3rem;
+}
+
+.menu{
+  font-size: 1.8rem;
+}
+
+.social-media{
+    padding:2rem;
+    color: whitesmoke;
+}
+
+.social-media:hover{
+  transform: scale(1.1);
 }
