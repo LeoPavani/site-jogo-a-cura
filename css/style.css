@@ -1,15 +1,32 @@
+.logo{
+    width: 15rem;
+}
+
+#carrossel{
+    margin-top: 6rem;
+}
+
+#sobre{
+    padding-top: 6rem;
+}
+
+#sobre p{
+    margin: 1rem 14rem;
+}
+
 .card-largura{
     max-width: 18rem;
   }
   
   .imagem-carrossel1{
     object-fit: cover;
-    object-position: 0 80%;
+    object-position: 0 50%;
     height: 500px;
-  }
-  
-  .imagem-carrossel2{
+}
+
+.imagem-carrossel2{
     object-fit: cover;
+    object-position: 0 50%;
     height: 500px;
   }
   
@@ -38,3 +55,7 @@
     object-fit: cover;
     height: 200px;
   }
+
+footer .footer a{
+    padding: 1rem 2rem;
+}
