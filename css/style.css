@@ -3,23 +3,28 @@
 }
 
 .logo{
-    width: 15rem;
+  width: 15rem;
 }
 
 #carrossel{
-    margin-top: 6rem;
+  margin-top: 6rem;
 }
 
 #sobre{
-    padding-top: 6rem;
+  padding-top: 6rem;
 }
 
 #sobre p{
-    margin: 1rem 14rem;
+  margin: 1rem 14rem;
+}
+
+#diferenciais{
+  background-image: url("../img/Texture13.png");
+
 }
 
 .card-largura{
-    max-width: 18rem;
+  max-width: 18rem;
 }
   
 .imagem-carrossel1{
@@ -70,8 +75,8 @@
 }
 
 .social-media{
-    padding:2rem;
-    color: whitesmoke;
+  padding:2rem;
+  color: whitesmoke;
 }
 
 .social-media:hover{
