@@ -21,6 +21,8 @@
             <ul class="navbar-nav">
               <li><a class="menu nav-link active" href="#">Início <span class="sr-only">(current)</span></a></li>
               <li><a class="menu nav-link" href="#sobre">Quem somos</a></li>
+              <li><a class="menu nav-link" href="#diferenciais">Diferenciais</a></li>
+              <li><a class="menu nav-link" href="#video">Trailer</a></li>
               <li><a class="menu nav-link" href="#contato">Contato</a></li>
               <!-- <li><a class="menu nav-link" data-toggle="modal" data-target="#exampleModal" 
                 href="#contato">Contato</a></li> -->
@@ -61,7 +63,7 @@
           </div>
         </section>
     
-        <section id="sobre">
+        <section class="sections" id="sobre">
             <h2 class="text-center fonte-titulo cor-especial">Quem somos?</h2>
             <p class="text-justify texto-sobre pb-5 cor-subtitulo">Lorem ipsum dolor sit amet, consectetur 
                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -83,7 +85,8 @@
 
         </section>
     
-        <section class="container-fluid bg-light" id="diferenciais">
+        <section class="sections" class="container-fluid bg-light" id="diferenciais">
+          <h2 class="text-center fonte-titulo cor-especial">Diferenciais</h2>
           <div class="row justify-content-center">
             <article class="card borda-cor-especial card-largura col-12 col-xl-2 p-0 m-5">
               <img src="img/receita-beterrabas.jpg" class="card-img-top card-posicao-imagem" alt="tigela com salada de abacate, vista superior">
@@ -92,7 +95,7 @@
                 <p class="card-text">O contexto do jogo se dá em uma eminência a 3° Guerra Mundial, 
                   devido as tensões ...</p>
                 <a data-toggle="modal" data-target="#exampleModal" href="#" class="leia-mais-botao btn botao-cor-especial"
-                data-title="Conhecimentos Históricos" data-content="O contexto do jogo se dá em uma eminência a 3° 
+                data-src="img/receita-beterrabas.jpg" data-title="Conhecimentos Históricos" data-content="O contexto do jogo se dá em uma eminência a 3° 
                 Guerra Mundial, devido as tensões geopolíticas latente entre as nações, e traz referências ao maior 
                 acidente radioativo da história, Chernobyl, 1986 na Ucrânia. Para além de um game, podemos conhecer 
                 mais aspectos regionais da nossa própria cidade de São Paulo, tanto do centro até projetos 
@@ -106,7 +109,7 @@
                 <p class="card-text">É muito escasso a valorização da nossa cultura 
                   e valores nacionalistas na indústria dos games ...</p>
                 <a data-toggle="modal" data-target="#exampleModal" href="#" class="leia-mais-botao btn botao-cor-especial" 
-                  data-title="Nacionalidade" data-content="É muito escasso a valorização da nossa cultura e valores 
+                  data-src="img/receita-beterrabas.jpg" data-title="Nacionalidade" data-content="É muito escasso a valorização da nossa cultura e valores 
                   nacionalistas na indústria dos games. 
                   <br><br>
                   Os devs (desenvolvedores), indie (independentes) ou grandes players do mercado de jogos eletrônicos 
@@ -124,7 +127,8 @@
                 <h5 class="card-title">Representatividade</h5>
                 <p class="card-text">O óbvio precisa ser dito, a representatividade 
                   precisa ser vista e falada. Isso implica diretamente no ...</p>
-                <a data-toggle="modal" data-target="#exampleModal" href="#" class="leia-mais-botao btn botao-cor-especial" data-title="Representatividade" 
+                <a data-toggle="modal" data-target="#exampleModal" href="#" class="leia-mais-botao btn botao-cor-especial" 
+                  data-src="img/receita-beterrabas.jpg" data-title="Representatividade" 
                   data-content="O óbvio precisa ser dito, a representatividade precisa ser vista e falada. 
                   Isso implica diretamente no comportamento de cada indivíduo, principalmente 
                   com as crianças, em sua construção como indivíduo pertencente a uma sociedade, 
@@ -146,13 +150,15 @@
               </div>
             </article>
             <article class="card borda-cor-especial card-largura col-12 col-xl-2 p-0 m-5">
-              <img src="img/receita-beterrabas.jpg" class="card-img-top card-posicao-imagem" alt="prato de salada de pimentões com alguns ingredientes ao lado, vista superior">
+              <img src="img/receita-beterrabas.jpg" class="card-img-top card-posicao-imagem" 
+                alt="prato de salada de pimentões com alguns ingredientes ao lado, vista superior">
               <div class="card-body">
                 <h5 class="card-title">Afrofuturismo</h5>
                 <p class="card-text">A Cura se inspira no movimento do Afrofuturismo, 
                   que simboliza um gênero artístico, um movimento   ...</p>
                 <a data-toggle="modal" data-target="#exampleModal" href="#" class="leia-mais-botao btn botao-cor-especial" 
-                  data-title="Afrofuturismo" data-content="A Cura se inspira no movimento do Afrofuturismo, 
+                  data-src="img/receita-beterrabas.jpg" data-title="Afrofuturismo" 
+                  data-content="A Cura se inspira no movimento do Afrofuturismo, 
                   que simboliza um gênero artístico, um movimento estético, social e cultural, combinando elementos 
                   da ficção científica com história, fantasia e temáticas não-ocidentais com o objetivo de retratar 
                   os dilemas negros e, ainda, interrogar eventos históricos relacionados ao racismo global. Grandes 
@@ -178,6 +184,11 @@
                     adipiscing elit...</p><a href="#" class="btn botao-cor-especial">Ler mais...</a>
               </div>
             </article> -->
+          </div>
+        </section>
+        <section class="sections" id="video">
+          <div class="text-center m-5">
+            <iframe width="800rem" height="450rem" src="https://www.youtube.com/embed/KszSDnO3GGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </section>
       </main>
@@ -206,6 +217,9 @@
               </button>
             </header>
             <main class="modal-body">
+              <div class="text-center">
+                <img src="" alt="" id="imageModal" class="imgModal">
+              </div>
               <p id="contentModal"></p>
               <!-- <form>
                 <div class="form-group">
