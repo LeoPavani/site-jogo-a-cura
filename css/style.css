@@ -2,6 +2,11 @@
   font-family: "Montserrat";
 }
 
+body{
+  width: 100%;
+  background-image: url("../img/Texture13.png");
+}
+
 .logo{
   width: 15rem;
 }
@@ -10,18 +15,26 @@
   margin-top: 6rem;
 }
 
-#sobre{
+.sections{
   padding-top: 6rem;
+}
+
+#sobre{
+  background-color: #fff;
 }
 
 #sobre p{
   margin: 1rem 7rem;
 }
 
-#diferenciais{
+/* #diferenciais{
   background-image: url("../img/Texture13.png");
 
-}
+} */
+
+/* #video{
+  background-image: url("../img/Texture13.png");
+} */
 
 .card-largura{
   max-width: 18rem;
@@ -75,7 +88,7 @@
 }
 
 .social-media{
-  padding:2rem;
+  padding: 1rem 2rem;
   color: whitesmoke;
 }
 
@@ -83,3 +96,10 @@
   transform: scale(1.1);
 }
 
+.imgModal{
+  width: 10rem;
+}
+
+.diferenciais-largura{
+  width: 100%;
+}
