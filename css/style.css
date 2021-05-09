@@ -15,7 +15,7 @@
 }
 
 #sobre p{
-  margin: 1rem 14rem;
+  margin: 1rem 7rem;
 }
 
 #diferenciais{
@@ -49,7 +49,7 @@
 }
 
 .cor-subtitulo{
-  color: gray;
+  color: rgb(70, 70, 70);
 }
   
 .botao-cor-especial{
@@ -82,3 +82,4 @@
 .social-media:hover{
   transform: scale(1.1);
 }
+
