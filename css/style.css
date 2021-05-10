@@ -24,7 +24,7 @@ body{
 }
 
 #sobre p{
-  margin: 1rem 7rem;
+  margin: 1rem 10%;
 }
 
 /* #diferenciais{
@@ -102,4 +102,50 @@ body{
 
 .diferenciais-largura{
   width: 100%;
+}
+
+iframe{
+  width: 55rem;
+  height: 31rem;
+}
+
+@media (max-width: 978px){
+  .diferenciais-largura{
+    margin: 0px;
+  }
+  
+  #trailer, iframe{
+    margin: 0px !important;
+  }
+
+  iframe{
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px){
+  .imagem-carrossel1, .imagem-carrossel2{
+    object-position: 78% 50%;
+  }
+}
+
+@media (max-width: 366px){
+  .logo-mobile{
+    width: 65%;
+    padding-top: 0px;
+    margin: 0px;
+  }
+
+  .logo{
+    width: 100%;
+  }
+
+  footer p{
+    font-size: 0.6rem;
+    
+  }
+
+  .social-media{
+    padding: 1rem;
+  }
 }
